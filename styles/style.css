@@ -52,7 +52,6 @@
   width: 388px;
   font-size: 18px;
   line-height: 25px;
-  font-weight: normal;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -150,11 +149,14 @@
   width: 60%;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
   text-align: center;
   margin: 0;
   padding-top: 20px;
 }
+
+/*у меня есть класс digits__section-subtitle и он не используется.
+ Нужно проверить какого хуя и мб удалить
+ */
 
 .section-subtitle_theme_dark {
   color: white;
@@ -190,7 +192,6 @@
 .table__text {
   line-height: 1.2;
   font-size: 18px;
-  font-weight: normal;
   margin: 20px 0 0 0;
 
 }
@@ -219,7 +220,6 @@
 .feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
-  font-weight: normal;
   margin:0;
   padding-top: 70px;
 }
@@ -235,7 +235,7 @@
   right: 48px;
 }
 
-.feynman__maim-illustration {
+.feynman__main-illustration {
   width: 867px;
   height: 637px;
   object-fit: cover;
@@ -299,7 +299,6 @@
 .footer__author {
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
   color: white;
   margin: 0;
 }
