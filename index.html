@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-  <div class="page">
+<body class="page">
+  <div class="page__wrapper">
     <header class="header">
       <img src="images/logo_place_header.svg" alt="Логотип Яндекса" class="logo logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
@@ -51,7 +51,7 @@
             <p class="table__text">Число нейронов в мозге человека</p>
           </li>
           <li class="table__cell">
-            <h3 class="table__heading">2,1 милларда</h3>
+            <h3 class="table__heading">2,1 миллиарда</h3>
             <p class="table__text">Число нуждающихся в повышении квалификации</p>
             <p class="table__text">Всемирный Банк, 2017</p>
           </li>
@@ -82,6 +82,7 @@
           </li>
         </ul>
       </section>
+
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
@@ -127,7 +128,9 @@
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">9</h3>
-            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+            <p class="table__text table__text_theme_dark">
+              Занимайтесь по расписанию, короткими интенсивными интервалами.
+            </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">10</h3>
@@ -139,50 +142,51 @@
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__columns_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <img src="images/logo_place_footer.svg" alt="Логотип Яндекса" class="logo logo_place_footer">
           <p class="footer__author">&#169; Глебкин Алексей</p>
         </div>
-        <div class="footer__columns_content_info">
-          <h3 class="footer__columns-heading">О Практикуме</h3>
+        <div class="footer__column footer__column_content_info">
+          <h2 class="footer__column-heading">О Практикуме</h2>
           <nav>
-            <ul class="footer__columns-links">
+            <ul class="footer__column-links">
               <li>
-                <a href="#" class="footer__columns-link">
+                <a href="#" class="footer__column-link">
                   Главная
                 </a>
               </li>
               <li>
-                <a href="#" class="footer__columns-link">
+                <a href="#" class="footer__column-link">
                   Концепция
                 </a>
               </li>
               <li>
-                <a href="#" class="footer__columns-link">
+                <a href="#" class="footer__column-link">
                   Наставники
                 </a>
               </li>
             </ul>
           </nav>
         </div>
-        <div class="footer__columns_content_social">
-          <h3 class="footer__columns-heading">Соцсети</h3>
+        <div class="footer__column footer__column_content_social">
+          <h2 class="footer__column-heading">Соцсети</h2>
           <nav>
-            <ul class="footer__columns-links">
+            <ul class="footer__column-links">
               <li>
-                <a href="https://www.youtube.com/channel/UCvL9W0xjmP1zt-fTWtVT3cA" target="_blank" class="footer__columns-link">
+                <a href="https://www.youtube.com/channel/UCvL9W0xjmP1zt-fTWtVT3cA" target="_blank"
+                   class="footer__column-link">
                   <div class="footer__social-icon footer__social-icon_name_youtube"></div>
                   YouTube
                 </a>
               </li>
               <li>
-                <a href="https://vk.com/kisexlao" target="_blank" class="footer__columns-link">
+                <a href="https://vk.com/kisexlao" target="_blank" class="footer__column-link">
                   <div class="footer__social-icon footer__social-icon_name_vk"></div>
                   ВКонтакте
                 </a>
               </li>
               <li>
-                <a href="https://www.twitch.tv/kisexd" target="_blank" class="footer__columns-link">
+                <a href="https://www.twitch.tv/kisexd" target="_blank" class="footer__column-link">
                   <div class="footer__social-icon footer__social-icon_name_tiktok"></div>
                   TikTok
                 </a>
