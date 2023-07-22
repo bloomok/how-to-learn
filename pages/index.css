@@ -41,7 +41,6 @@
 @import url(../blocks/oakley/oakley.css);
 /*Section Digits*/
 @import url(../blocks/digits/digits.css);
-@import url(../blocks/content/__digits/content__digits.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
@@ -73,7 +72,6 @@
 
 /*Section Kaufman*/
 @import url(../blocks/kaufman/kaufman.css);
-@import url(../blocks/content/__kaufman/content__kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 /*Section Resources*/
