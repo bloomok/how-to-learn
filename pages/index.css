@@ -5,7 +5,6 @@
 /*General*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__wrapper/page__wrapper.css);
-@import url(../blocks/content/__wrapper/content__wrapper.css);
 
 /*Header*/
 @import url(../blocks/header/header.css);
