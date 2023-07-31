@@ -9,6 +9,7 @@
 </head>
 <body class="page">
   <div class="page__wrapper">
+
     <header class="header">
       <img src="images/logo_place_header.svg" alt="Логотип Яндекса" class="logo logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
@@ -19,6 +20,7 @@
       <div class="header__square-pic rotation"></div>
       <img src="images/header-image.png" alt="Son of a dog with a dog" class="header__main-illustration">
     </header>
+
     <main class="content">
 
       <section class="description">
@@ -32,7 +34,7 @@
               и не приносит пользы.
             </p>
             <p class="two-columns__paragraph">
-              <span class="two-columns__span-accent">Вывод: </span>
+              <span class="two-columns__span-accent">Вывод:</span>
               учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
             </p>
             <p class="two-columns__paragraph">
@@ -43,7 +45,7 @@
         </div>
       </section>
 
-      <section class="techniques wrapper">
+      <section class="techniques content__wrapper">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
@@ -83,17 +85,17 @@
         </ul>
       </section>
 
-      <section class="video wrapper">
+      <section class="video content__wrapper">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316"
-                  src="https://www.youtube.com/embed/arj7oStGLkU"
-                  allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316"
-                  src="https://www.youtube.com/embed/5MgBikgcWnY"
-                  allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          </li>
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
 
       <section class="oakley">
@@ -120,7 +122,7 @@
         <img src="images/feynman.png" alt="Mr. Proper" class="feynman__main-illustration">
       </section>
 
-      <section class="digits content__digits">
+      <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
@@ -162,12 +164,14 @@
       </section>
 
       <section class="khan">
-        <div class="khan__container wrapper">
+        <div class="khan__container content__wrapper">
           <p class="khan__author">Салман Хан</p>
-          <h2 class="khan__title">Весь мир — Школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов
-          по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так
-          учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <blockquote class="khan__quote">
+            <p>Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов
+            по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так
+            учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -178,7 +182,7 @@
         </div>
       </section>
 
-      <section class="kaufman wrapper">
+      <section class="kaufman content__wrapper">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <ul class="table table_theme_dark">
@@ -234,29 +238,31 @@
         <nav>
           <ul class="resources__logo-zone">
             <li>
-              <a href="#" target="_blank" class="resources__link link-transition">
+              <a href="#" target="_blank" class="link-transition">
                 <img src="images/resources-arzamas.svg" alt="Arzamas" class="resources__logo">
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" class="resources__link link-transition">
+              <a href="#" target="_blank" class="link-transition">
                 <img src="images/resources-n1.svg" alt="N+1" class="resources__logo">
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" class="resources__link link-transition">
+              <a href="#" target="_blank" class="link-transition">
                 <img src="images/resources-strelka.svg" alt="Strelka" class="resources__logo">
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" class="resources__link link-transition">
+              <a href="#" target="_blank" class="link-transition">
                 <img src="images/resources-polka.svg" alt="Полка" class="resources__logo">
               </a>
             </li>
           </ul>
         </nav>
       </section>
+
     </main>
+
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
@@ -290,8 +296,7 @@
           <nav>
             <ul class="footer__column-links">
               <li>
-                <a href="https://www.youtube.com/channel/UCvL9W0xjmP1zt-fTWtVT3cA" target="_blank"
-                   class="footer__column-link link-transition">
+                <a href="https://www.youtube.com/@kisexd" target="_blank" class="footer__column-link link-transition">
                   <div class="footer__social-icon footer__social-icon_name_youtube"></div>
                   YouTube
                 </a>
@@ -313,6 +318,7 @@
         </div>
       </div>
     </footer>
+
   </div>
 </body>
 </html>
